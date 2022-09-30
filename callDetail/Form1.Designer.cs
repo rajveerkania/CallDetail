@@ -92,7 +92,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackgroundImage = global::callDetail.Properties.Resources.RSU_Logo;
+            this.pictureBox1.BackgroundImage = global::callDetail.Properties.Resources.NicePng_bakra_png_93338101;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(277, 12);
             this.pictureBox1.Name = "pictureBox1";

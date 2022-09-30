@@ -63,9 +63,89 @@ namespace callDetail.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _668_6682045_satyamev_jayate_png_8_png_image_government {
+            get {
+                object obj = ResourceManager.GetObject("668-6682045_satyamev-jayate-png-8-png-image-government", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _668_6682045_satyamev_jayate_png_8_png_image_government1 {
+            get {
+                object obj = ResourceManager.GetObject("668-6682045_satyamev-jayate-png-8-png-image-government1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _668_6682045_satyamev_jayate_png_8_png_image_government2 {
+            get {
+                object obj = ResourceManager.GetObject("668-6682045_satyamev-jayate-png-8-png-image-government2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _668_6682045_satyamev_jayate_png_8_png_image_government3 {
+            get {
+                object obj = ResourceManager.GetObject("668-6682045_satyamev-jayate-png-8-png-image-government3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _668_6682045_satyamev_jayate_png_8_png_image_government4 {
+            get {
+                object obj = ResourceManager.GetObject("668-6682045_satyamev-jayate-png-8-png-image-government4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap emblem_dark {
+            get {
+                object obj = ResourceManager.GetObject("emblem-dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap emblem_dark1 {
+            get {
+                object obj = ResourceManager.GetObject("emblem-dark1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NicePng_bakra_png_93338101 {
+            get {
+                object obj = ResourceManager.GetObject("NicePng_bakra-png_93338101", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

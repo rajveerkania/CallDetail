@@ -95,5 +95,29 @@
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\668-6682045_satyamev-jayate-png-8-png-image-government.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\668-6682045_satyamev-jayate-png-8-png-image-government1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblem-dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\668-6682045_satyamev-jayate-png-8-png-image-government2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\668-6682045_satyamev-jayate-png-8-png-image-government3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblem-dark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\668-6682045_satyamev-jayate-png-8-png-image-government4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_bakra-png_93338101.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
