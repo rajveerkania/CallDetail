@@ -111,6 +111,7 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker2.TabIndex = 5;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // textBox1
             // 
@@ -157,11 +158,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(236, 354);
+            this.label7.Location = new System.Drawing.Point(145, 354);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 23);
+            this.label7.Size = new System.Drawing.Size(157, 23);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Name:";
+            this.label7.Text = "Name (Optional):";
             // 
             // textBox3
             // 
@@ -177,11 +178,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(168, 404);
+            this.label8.Location = new System.Drawing.Point(77, 404);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(134, 23);
+            this.label8.Size = new System.Drawing.Size(225, 23);
             this.label8.TabIndex = 12;
-            this.label8.Text = "Transfered to:";
+            this.label8.Text = "Transfered to (Optional):";
             // 
             // textBox4
             // 
@@ -216,7 +217,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 545);
+            this.button1.Location = new System.Drawing.Point(12, 535);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 16;
@@ -227,7 +228,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(713, 545);
+            this.button2.Location = new System.Drawing.Point(713, 535);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 17;
