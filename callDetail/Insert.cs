@@ -40,7 +40,16 @@ namespace callDetail
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            
+            if (dateTimePicker1.Value == DateTimePicker.MinimumDateTime)
+            {
+                dateTimePicker1.Value = DateTime.Now;
+                dateTimePicker1.Format = DateTimePickerFormat.Custom;
+                dateTimePicker1.CustomFormat = " ";
+            }
+            else
+            {
+                dateTimePicker1.Format = DateTimePickerFormat.Short;
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -60,7 +69,17 @@ namespace callDetail
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if(textBox1.Text == "" || textBox2.Text == "" || textBox5.Text == "")
+            {
+                MessageBox.Show("Empty Text Field");
+            }
+
+            else
+            {
+                MessageBox.Show("Record added successfully!");
+                this.Close();
+            }
+            
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -128,6 +147,23 @@ namespace callDetail
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
 
+            if (dateTimePicker2.Value == DateTimePicker.MinimumDateTime)
+            {
+                dateTimePicker2.Value = DateTime.Now;
+                dateTimePicker2.Format = DateTimePickerFormat.Custom;
+                dateTimePicker2.CustomFormat = " ";
+            }
+            else
+            {
+                dateTimePicker2.Format = DateTimePickerFormat.Short;
+            }
+        }
+    
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dateTimePicker1.Value = DateTimePicker.MinimumDateTime;
+            dateTimePicker2.Value = DateTimePicker.MinimumDateTime;
         }
     }
 }

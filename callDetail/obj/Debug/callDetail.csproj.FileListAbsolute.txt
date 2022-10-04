@@ -33,3 +33,15 @@ C:\Users\kania\source\repos\callDetail\obj\Debug\callDetail.csproj.CoreCompileIn
 C:\Users\kania\source\repos\callDetail\obj\Debug\callDetail.exe
 C:\Users\kania\source\repos\callDetail\obj\Debug\callDetail.pdb
 D:\210031101611013\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.Insert.resources
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\bin\Debug\callDetail.exe.config
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\bin\Debug\callDetail.exe
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\bin\Debug\callDetail.pdb
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.csproj.AssemblyReference.cache
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.csproj.SuggestedBindingRedirects.cache
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.Form1.resources
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.Insert.resources
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.Properties.Resources.resources
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.csproj.GenerateResource.cache
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.csproj.CoreCompileInputs.cache
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.exe
+D:\210031101611013\Workspace\DESK_APP\source\repos\callDetail\obj\Debug\callDetail.pdb
