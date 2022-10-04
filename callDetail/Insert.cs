@@ -79,6 +79,7 @@ namespace callDetail
                 MessageBox.Show("Record added successfully!");
                 this.Close();
             }
+           
             
         }
 
@@ -99,7 +100,7 @@ namespace callDetail
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-           if(!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+           if(!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '+'))
             {
                 e.Handled = true;
             }
@@ -107,7 +108,7 @@ namespace callDetail
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ':'))
             {
                 e.Handled = true;
             }
@@ -115,7 +116,7 @@ namespace callDetail
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -164,6 +165,11 @@ namespace callDetail
         {
             dateTimePicker1.Value = DateTimePicker.MinimumDateTime;
             dateTimePicker2.Value = DateTimePicker.MinimumDateTime;
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
         }
     }
 }
