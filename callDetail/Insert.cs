@@ -20,7 +20,9 @@ namespace callDetail
 
         private void Insert_Load(object sender, EventArgs e)
         {
-
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -100,10 +102,7 @@ namespace callDetail
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-           if(!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '+'))
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
