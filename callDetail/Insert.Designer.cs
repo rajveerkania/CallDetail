@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,6 +46,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.separator2 = new callDetail.Separator();
+            this.separator1 = new callDetail.Separator();
             this.SuspendLayout();
             // 
             // label1
@@ -55,30 +56,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(604, 42);
+            this.label1.Location = new System.Drawing.Point(604, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "INSERT";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(2, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1350, 2);
-            this.label2.TabIndex = 1;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(542, 192);
+            this.label3.Location = new System.Drawing.Point(539, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 27);
             this.label3.TabIndex = 2;
@@ -90,7 +80,7 @@
             this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(656, 195);
+            this.dateTimePicker1.Location = new System.Drawing.Point(656, 202);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(152, 20);
             this.dateTimePicker1.TabIndex = 3;
@@ -101,7 +91,7 @@
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(539, 242);
+            this.label4.Location = new System.Drawing.Point(535, 241);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 27);
             this.label4.TabIndex = 4;
@@ -112,7 +102,7 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(656, 300);
+            this.textBox1.Location = new System.Drawing.Point(656, 295);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 20);
             this.textBox1.TabIndex = 6;
@@ -124,7 +114,7 @@
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(452, 296);
+            this.label5.Location = new System.Drawing.Point(432, 288);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(173, 27);
             this.label5.TabIndex = 7;
@@ -136,7 +126,7 @@
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(470, 351);
+            this.label6.Location = new System.Drawing.Point(453, 335);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(153, 27);
             this.label6.TabIndex = 8;
@@ -146,7 +136,7 @@
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(656, 351);
+            this.textBox2.Location = new System.Drawing.Point(656, 342);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(152, 20);
             this.textBox2.TabIndex = 9;
@@ -158,7 +148,7 @@
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(441, 402);
+            this.label7.Location = new System.Drawing.Point(418, 382);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(187, 27);
             this.label7.TabIndex = 10;
@@ -168,7 +158,7 @@
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(656, 405);
+            this.textBox3.Location = new System.Drawing.Point(656, 389);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(152, 20);
             this.textBox3.TabIndex = 11;
@@ -180,7 +170,7 @@
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(373, 452);
+            this.label8.Location = new System.Drawing.Point(339, 429);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(266, 27);
             this.label8.TabIndex = 12;
@@ -190,7 +180,7 @@
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(656, 455);
+            this.textBox4.Location = new System.Drawing.Point(656, 436);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(152, 20);
             this.textBox4.TabIndex = 13;
@@ -202,7 +192,7 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(535, 506);
+            this.label9.Location = new System.Drawing.Point(530, 476);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(75, 27);
             this.label9.TabIndex = 14;
@@ -212,7 +202,7 @@
             // 
             this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(656, 506);
+            this.textBox5.Location = new System.Drawing.Point(656, 483);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(394, 69);
@@ -225,7 +215,7 @@
             this.button1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(12, 664);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(264, 53);
+            this.button1.Size = new System.Drawing.Size(206, 53);
             this.button1.TabIndex = 16;
             this.button1.Text = "HOME";
             this.button1.UseVisualStyleBackColor = true;
@@ -235,9 +225,9 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1074, 664);
+            this.button2.Location = new System.Drawing.Point(1132, 664);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 53);
+            this.button2.Size = new System.Drawing.Size(206, 53);
             this.button2.TabIndex = 17;
             this.button2.Text = "SUBMIT";
             this.button2.UseVisualStyleBackColor = true;
@@ -247,9 +237,9 @@
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(795, 664);
+            this.button3.Location = new System.Drawing.Point(894, 664);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(264, 53);
+            this.button3.Size = new System.Drawing.Size(206, 53);
             this.button3.TabIndex = 18;
             this.button3.Text = "CLEAR";
             this.button3.UseVisualStyleBackColor = true;
@@ -260,11 +250,30 @@
             this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(656, 242);
+            this.dateTimePicker2.Location = new System.Drawing.Point(656, 266);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.ShowUpDown = true;
             this.dateTimePicker2.Size = new System.Drawing.Size(152, 20);
             this.dateTimePicker2.TabIndex = 19;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged_1);
+            // 
+            // separator2
+            // 
+            this.separator2.Location = new System.Drawing.Point(0, 121);
+            this.separator2.Name = "separator2";
+            this.separator2.Size = new System.Drawing.Size(1383, 25);
+            this.separator2.TabIndex = 21;
+            this.separator2.Text = "separator2";
+            this.separator2.Click += new System.EventHandler(this.separator2_Click);
+            // 
+            // separator1
+            // 
+            this.separator1.Location = new System.Drawing.Point(-12, 633);
+            this.separator1.Name = "separator1";
+            this.separator1.Size = new System.Drawing.Size(1395, 25);
+            this.separator1.TabIndex = 22;
+            this.separator1.Text = "separator1";
+            this.separator1.Click += new System.EventHandler(this.separator1_Click);
             // 
             // Insert
             // 
@@ -272,6 +281,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.separator1);
+            this.Controls.Add(this.separator2);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -289,7 +300,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Insert";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -303,7 +313,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label4;
@@ -321,5 +330,7 @@
         public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private Separator separator2;
+        private Separator separator1;
     }
 }

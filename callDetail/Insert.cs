@@ -102,7 +102,10 @@ namespace callDetail
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '+') && (e.KeyChar != ' '))
+            {
+                e.Handled = true;
+            }
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -128,7 +131,7 @@ namespace callDetail
 
         private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -169,6 +172,21 @@ namespace callDetail
             textBox3.Clear();
             textBox4.Clear();
             textBox5.Clear();
+        }
+
+        private void dateTimePicker2_ValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void separator2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void separator1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

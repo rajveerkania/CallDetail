@@ -10,7 +10,7 @@ namespace callDetail
 {
      class Separator : Control
     {
-        private int _thckness = 1;
+        private int _thckness = 3;
         private bool _isVertical;
             
         protected override void OnPaint(PaintEventArgs e)
