@@ -38,6 +38,7 @@ namespace callDetail
         {
             Insert i1 = new Insert();
             i1.Show();
+
         }
 
         private void button4_Click(object sender, EventArgs e)

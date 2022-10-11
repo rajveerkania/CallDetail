@@ -73,12 +73,12 @@ namespace callDetail
         {
             if(textBox1.Text == "" || textBox2.Text == "" || textBox5.Text == "")
             {
-                MessageBox.Show("Empty Text Field");
+               MessageBox.Show("Please fill up the textfield(s)!", "Empty Field Box",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
 
             else
             {
-                MessageBox.Show("Record added successfully!");
+                MessageBox.Show("Record updated successfully!","Record Updated", MessageBoxButtons.OK,MessageBoxIcon.Information);
                 this.Close();
             }
            
